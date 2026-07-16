@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">My<span>Portfolio</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Shanu Sinha</h1>
+            <p>Diploma Student Aspiring Full stack Developer.</p>
+            <button class="btn" id="clickBtn">Click Me</button>
+        </div>
+        <div class="home-img">
+            <img src="photo file.jpeg" alt="my pic">
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-container">
+            <p>I am currently a second semester diploma student with a strong passion for technology.After completing my 10th grade,I decided to dive straight into the world of coding.currently ,I am learning full-stack web development and constantly acquiring new skills to build modern,real world web Application</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class="fas fa-code"></i>
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript, React, Tailwind CSS</p>
+            </div>
+            <div class="skills-box">
+                <i class="fas fa-server"></i>
+                <h3>Backend</h3>
+                <p>Node.js, Express, MongoDB (learning)</p>
+            </div>
+            <div class="skills-box">
+                <i class="fas fa-tools"></i>
+                <h3>Tools</h3>
+                <p>Git, GitHub, VS Code.<br>  
+                    Postman(learning)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <h3>Weather application</h3>
+                <p>A weather application is a software tool that provides real-time weather updates for various locations around the globe.</p>
+                <br><p>Tech : Html,Css ,javascript and API kay.</p>
+                <div class="project-links">
+                    <a href="https://github.com/shanukr72960">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://shanukr72960.github.io/-Weather_Premium/">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+            <div class="project-box">
+                <h3>Typing-Speed application</h3>
+                <p>A Typing speed application is an interactive tool designed to measure and improve a user's typing speed and accuracy.</p>
+                <br><P>Tech : Html,Css and javascript.</P>
+                <div class="project-links">
+                    <a href="https://github.com/shanukr72960" >
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://shanukr72960.github.io/typing-speed/">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <form id="contactForm">
+                <div class="input-group">
+                    <input type="text" id="name" required placeholder=" ">
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder=" ">
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" required placeholder=" " rows="5"></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
